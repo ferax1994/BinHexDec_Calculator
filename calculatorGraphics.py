@@ -23,7 +23,9 @@
 #
 #       Module calculatorLogic contains all calculation support uppon number/expression as string data.
 #       Convert number with: data = Calculator().convert(numberString);
-#               
+#
+#
+#       projectPath\graphicImages --> directory containing all images used to make graphic interface
 #
 # ==========
 
@@ -215,7 +217,7 @@ class Window(QMainWindow) :
         Used to generate background of the object (QMainWindow).
         """
         
-        self._image = QImage('background.jpg');
+        self._image = QImage('graphicImages\background.jpg');
         self._scaledImage = self._image.scaled(self.size(), Qt.IgnoreAspectRatio);
 
         self._transparentImage = self.setImageOpacity(self._scaledImage, 0.15);
@@ -467,7 +469,7 @@ class Window(QMainWindow) :
         
         helpPop = QMessageBox(self);
         helpPop.setWindowTitle("Help is here");
-        helpPop.setWindowIcon(QIcon("helpIcon.png"));
+        helpPop.setWindowIcon(QIcon("graphicImages\helpIcon.png"));
         helpPop.setIcon(QMessageBox.Warning);
         helpPop.setText("We suggest reading source code and its comments");
         helpPop.setInformativeText("Help mail: ferax22@outlook.com");

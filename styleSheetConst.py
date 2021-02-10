@@ -1,5 +1,7 @@
 #Hex2Dec StyleSheet Constants
 
+# \graphicImages --> directory containing all images needed for styleSheet
+
 # ========== EXPLANATIONS ==========
 # border-style --> defines border type: 4 parameters (4 sides)
 #                                       3 parameters (top, left/right, bottom)
@@ -66,7 +68,7 @@ qLabelResultHex_conversion = """QLabel {
                                        border-style : solid;
                                        border-width : 1px;
                                        border-color : black;
-                                       background-image : url(labelConversionImage.png); 
+                                       background-image : url(graphicImages\labelConversionImage.png); 
                                        margin : 1px;
                                 }""";
 qLabelResultHex_calculation = """QLabel {
@@ -74,7 +76,7 @@ qLabelResultHex_calculation = """QLabel {
                                         border-style : solid;
                                         border-width : 1px;
                                         border-color : black;
-                                        background-image : url(labelCalculationImage.png); 
+                                        background-image : url(graphicImages\labelCalculationImage.png); 
                                         margin : 1px;
                                  }""";
 qLabelResultDec_normal = """QLabel {
@@ -92,7 +94,7 @@ qLabelResultDec_conversion = """QLabel {
                                        border-style : solid;
                                        border-width : 1px;
                                        border-color : black;
-                                       background-image : url(labelConversionImage.png); 
+                                       background-image : url(graphicImages\labelConversionImage.png); 
                                        margin : 1px;
                                 }""";
 qLabelResultDec_calculation = """QLabel {
@@ -100,7 +102,7 @@ qLabelResultDec_calculation = """QLabel {
                                         border-style : solid;
                                         border-width : 1px;
                                         border-color : black;
-                                        background-image : url(labelCalculationImage.png); 
+                                        background-image : url(graphicImages\labelCalculationImage.png); 
                                         margin : 1px;
                                  }""";
 qLabelResultBin_normal = """QLabel {
@@ -118,14 +120,14 @@ qLabelResultBin_conversion = """QLabel {
                                        border-style : solid;
                                        border-width : 1px;
                                        border-color : black;
-                                       background-image : url(labelConversionImage.png); 
+                                       background-image : url(graphicImages\labelConversionImage.png); 
                                 }""";
 qLabelResultBin_calculation = """QLabel {
                                         color : transparent;
                                         border-style : solid;
                                         border-width : 1px;
                                         border-color : black;
-                                        background-image : url(labelCalculationImage.png); 
+                                        background-image : url(graphicImages\labelCalculationImage.png); 
                                         margin : 1px;
                                  }""";
 
