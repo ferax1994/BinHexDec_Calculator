@@ -1,2 +1,5 @@
 # ignore PyQt5 library
 PyQt5/
+
+#ignore some fucking py cache
+__pycache__/
