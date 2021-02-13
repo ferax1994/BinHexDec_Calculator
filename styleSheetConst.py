@@ -68,7 +68,7 @@ qLabelResultHex_conversion = """QLabel {
                                        border-style : solid;
                                        border-width : 1px;
                                        border-color : black;
-                                       background-image : url(graphicImages\labelConversionImage.png); 
+                                       background-image : url(graphicImages/labelConversionImage.png); 
                                        margin : 1px;
                                 }""";
 qLabelResultHex_calculation = """QLabel {
@@ -76,7 +76,7 @@ qLabelResultHex_calculation = """QLabel {
                                         border-style : solid;
                                         border-width : 1px;
                                         border-color : black;
-                                        background-image : url(graphicImages\labelCalculationImage.png); 
+                                        background-image : url(graphicImages/labelCalculationImage.png); 
                                         margin : 1px;
                                  }""";
 qLabelResultDec_normal = """QLabel {
@@ -94,7 +94,7 @@ qLabelResultDec_conversion = """QLabel {
                                        border-style : solid;
                                        border-width : 1px;
                                        border-color : black;
-                                       background-image : url(graphicImages\labelConversionImage.png); 
+                                       background-image : url(graphicImages/labelConversionImage.png); 
                                        margin : 1px;
                                 }""";
 qLabelResultDec_calculation = """QLabel {
@@ -102,7 +102,7 @@ qLabelResultDec_calculation = """QLabel {
                                         border-style : solid;
                                         border-width : 1px;
                                         border-color : black;
-                                        background-image : url(graphicImages\labelCalculationImage.png); 
+                                        background-image : url(graphicImages/labelCalculationImage.png); 
                                         margin : 1px;
                                  }""";
 qLabelResultBin_normal = """QLabel {
@@ -120,14 +120,14 @@ qLabelResultBin_conversion = """QLabel {
                                        border-style : solid;
                                        border-width : 1px;
                                        border-color : black;
-                                       background-image : url(graphicImages\labelConversionImage.png); 
+                                       background-image : url(graphicImages/labelConversionImage.png); 
                                 }""";
 qLabelResultBin_calculation = """QLabel {
                                         color : transparent;
                                         border-style : solid;
                                         border-width : 1px;
                                         border-color : black;
-                                        background-image : url(graphicImages\labelCalculationImage.png); 
+                                        background-image : url(graphicImages/labelCalculationImage.png); 
                                         margin : 1px;
                                  }""";
 

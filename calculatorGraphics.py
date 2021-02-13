@@ -42,7 +42,7 @@ import styleSheetConst;
 
 from calculatorLogic import *;
 
-mainSize = (1000,800);
+mainSize = (1000,700);
 graphicChange_conversionTime = 500; #in miliseconds (ms)
 graphicChange_calculationTime = 500; #in miliseconds (ms)
 
@@ -217,7 +217,7 @@ class Window(QMainWindow) :
         Used to generate background of the object (QMainWindow).
         """
         
-        self._image = QImage('graphicImages\background.jpg');
+        self._image = QImage('graphicImages/background.jpg');
         self._scaledImage = self._image.scaled(self.size(), Qt.IgnoreAspectRatio);
 
         self._transparentImage = self.setImageOpacity(self._scaledImage, 0.15);
@@ -469,7 +469,7 @@ class Window(QMainWindow) :
         
         helpPop = QMessageBox(self);
         helpPop.setWindowTitle("Help is here");
-        helpPop.setWindowIcon(QIcon("graphicImages\helpIcon.png"));
+        helpPop.setWindowIcon(QIcon("graphicImages/helpIcon.png"));
         helpPop.setIcon(QMessageBox.Warning);
         helpPop.setText("We suggest reading source code and its comments");
         helpPop.setInformativeText("Help mail: ferax22@outlook.com");
